@@ -51,7 +51,31 @@ Maine
 Maryland
 Massachusetts
 Michigan
-Minnesota
+
+
+## Minnesota
+* Main Agency: [Minnesota Campaign Finance and Public Disclosure Board](http://www.cfboard.state.mn.us/)
+    * Authority: State candidates, state PACs
+    * Public Searches
+        * Search by committee name: YES
+        * Search by contributor name: YES, very poor UI
+        * Search by contributor address: NO
+        * Search by vendor name: YES, but broken
+    * Public Access
+        * Registration: Image PDF or Text PDF
+        * Report Summary: Text PDF
+        * Report Contributions: Text PDF
+        * Report Expenditures: Text PDF
+    * Public analysis tools
+        * NONE
+    * Committee Filing
+        * Accepts electronic filing using required [Campaign Finance Reporter Software](http://www.cfboard.state.mn.us/software/index.html) which runs on Windows XP only. The software syncs with the CF Board's servers, and automatically identifies violations such as overcontributions or name-matches to lobbyists prohibited from contributing. Seems to be a heavily-manual process.
+    * Complaints
+        * Listed by date, but not searchable
+        * [http://www.cfboard.state.mn.us/conagrm.html](list)
+* County and municipal filings are handled by counties. Hennepin County, for example, has an image PDF "database" but Ramsey County appears to just manually update a page with linked image PDFs. Many counties have no online presence, most likely requiring in-person visits.
+* State Campaign Finance Law: [Minn Stat. Ch. 10A](https://www.revisor.mn.gov/statutes/?id=10A)
+
 Mississippi
 Missouri
 Montana
