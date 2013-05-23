@@ -50,16 +50,14 @@ This is a compliation of research of state-by-state campaign finance information
 
 
 
-
-
-
-
 Alaska
 Arizona
 Arkansas
 California
+
+
 ## Colorado
-Colorado has an advanced and complex campaign finance reporting system named TRACER. It allows public searches by candidate, committee, contribution, expenditure, loan, penalty, complaint, race, registered agent, etc. It handles all races in all jurisdictions in the state. Committees can register online and are assigned a unique ID. Contributions can be uploaded using an "Electronic Data Interchange" (EDI) XML reporting specification. Nearly every search result page and report data page can be exported as CSV, XLS, PDF. Additionally, the SOS provides the ability to download [all contributions, expenditures and loans for all campaigns as zipped CSVs](http://tracer.sos.colorado.gov/PublicSite/DataDownload.aspx?CSRT=5610696337510576946).
+Colorado has an advanced and complex campaign finance reporting system named TRACER. It allows public searches by candidate, committee, contribution, expenditure, loan, penalty, complaint, race, registered agent, etc. It handles all races in all jurisdictions in the state. Committees can register online and are assigned a unique ID. Contributions can be uploaded using an "Electronic Data Interchange" (EDI) XML reporting specification. Nearly every search result page and report data page can be exported as CSV, XLS, PDF. Additionally, the SOS provides the ability to download [all contributions, expenditures and loans for all campaigns as zipped CSVs](http://tracer.sos.colorado.gov/PublicSite/DataDownload.aspx?CSRT=5610696337510576946). A 2008 RFP was awarded to Quest Information Systems to customize their FirstTuesday software. The amount of money is unknown, but there was an appropriation of $1,478,968 for FY08-09 to develop the software, plus an ongoing hosting charge.
 
 * Main Agency: [Colorado Secretary of State](http://tracer.sos.colorado.gov/PublicSite/homepage.aspx)
     * Authority: State candidates, state PACs, county jurisdictions
@@ -89,7 +87,12 @@ Georgia
 Hawaii
 Idaho
 Illinois
-Indiana
+
+
+## Indiana
+
+
+
 Iowa
 Kansas
 Kentucky
