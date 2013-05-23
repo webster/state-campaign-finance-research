@@ -26,6 +26,30 @@ This is a compliation of research of state-by-state campaign finance information
 * State Campaign Finance Law: [Fair Campaign Practices Act](http://www.sos.state.al.us/elections/FCPAInformation.aspx)
     * The FCPA requires candidates to file if they reach $25k (statewide), $10k (State Senate), $5k (State House, Circuit, or district office), or $1k for county or municipal office.
 
+## Alaska
+* Main Agency: [Alaska Public Offices Commission](http://doa.alaska.gov/apoc/home.html)
+    * Authority: State candidates, state PACs
+    * Public Searches
+        * Search by committee name: YES
+        * Search by contributor name: NO
+        * Search by contributor address: NO
+        * Search by vendor name: NO
+    * Public Access
+        * Registration: Image PDF
+        * Report Summary: Scrapeable HTML
+        * Report Contributions: Image PDF
+        * Report Expenditures: Image PDF
+    * Public analysis tools
+        * NONE
+    * Committee Filing
+        * Electronic filing accepted via [myAlaska system](http://doa.alaska.gov/apoc/FilingFDonline.html)
+    * Complaints
+        * Requires further research
+* County and municipal filings appear to be filed with [county probate courts](http://blog.al.com/spotnews/2011/08/birmingham_mayor_william_bell_26.html) and handled as court filings; requires further research
+* State Campaign Finance Law: 
+
+
+
 
 
 
@@ -34,7 +58,31 @@ Alaska
 Arizona
 Arkansas
 California
-Colorado
+## Colorado
+Colorado has an advanced and complex campaign finance reporting system named TRACER. It allows public searches by candidate, committee, contribution, expenditure, loan, penalty, complaint, race, registered agent, etc. It handles all races in all jurisdictions in the state. Committees can register online and are assigned a unique ID. Contributions can be uploaded using an "Electronic Data Interchange" (EDI) XML reporting specification. Nearly every search result page and report data page can be exported as CSV, XLS, PDF. Additionally, the SOS provides the ability to download [all contributions, expenditures and loans for all campaigns as zipped CSVs](http://tracer.sos.colorado.gov/PublicSite/DataDownload.aspx?CSRT=5610696337510576946).
+
+* Main Agency: [Colorado Secretary of State](http://tracer.sos.colorado.gov/PublicSite/homepage.aspx)
+    * Authority: State candidates, state PACs, county jurisdictions
+    * Public Searches
+        * Search by committee name: YES
+        * Search by contributor name: YES
+        * Search by contributor address: NO
+        * Search by vendor name: YES
+    * Public Access
+        * Registration: HTML
+        * Report Summary: Scrapeable HTML
+        * Report Contributions: CSV, XLS, Text PDF, HTML
+        * Report Expenditures: CSV, XLS, Text PDF, HTML
+    * Public analysis tools
+        * NONE
+    * Committee Filing
+        * Electronic filing accepted via [TRACER](http://tracer.sos.colorado.gov/). "The Secretary of State’s office provides three ways to file campaign finance information electronically. You may submit information via regular data entry directly into TRACER; via electronic data interchange (EDI) with pre-approved Excel spreadsheets; or via EDI with XML. All filers may use EDI, but the technical requirements of EDI make it more practical for committees with very large numbers of contributions and expenditures. EDI enables the management of contributions and expenditures using specific spreadsheet templates or XML prior to report filing. Please contact the Campaign Finance Support Team at cpfhelp@sos.state.co.us for more information on EDI filing."
+    * Complaints
+        * Search; HTML summaries; image PDF files
+* State Campaign Finance Law: 
+
+
+
 Connecticut
 Delaware
 Florida
