@@ -74,13 +74,12 @@ Colorado has an advanced and complex campaign finance reporting system named TRA
         * Report Contributions: CSV, XLS, Text PDF, HTML
         * Report Expenditures: CSV, XLS, Text PDF, HTML
     * Public analysis tools
-        * NONE
+        * Several reporting tools are available, such as overdue reports, contributions by employer, zipcode, etc. Advanced queries can be exported as XML, CSV, PDF, TIFF, MHTML web archive, Excel XLS, Word, or Image JPEG. These reports seem to group by name at best, and don't generate any graphical depictions.
     * Committee Filing
         * Electronic filing accepted via [TRACER](http://tracer.sos.colorado.gov/). "The Secretary of State’s office provides three ways to file campaign finance information electronically. You may submit information via regular data entry directly into TRACER; via electronic data interchange (EDI) with pre-approved Excel spreadsheets; or via EDI with XML. All filers may use EDI, but the technical requirements of EDI make it more practical for committees with very large numbers of contributions and expenditures. EDI enables the management of contributions and expenditures using specific spreadsheet templates or XML prior to report filing. Please contact the Campaign Finance Support Team at cpfhelp@sos.state.co.us for more information on EDI filing."
     * Complaints
         * Search; HTML summaries; image PDF files
-* State Campaign Finance Law: 
-
+* State Campaign Finance Law: [Colorado Fair Campaign Practices Act](http://www.sos.state.co.us/pubs/elections/CampaignFinance/files/2008Title1Article45.pdf)
 
 
 Connecticut
