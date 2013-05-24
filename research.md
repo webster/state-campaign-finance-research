@@ -90,7 +90,27 @@ Illinois
 
 
 ## Indiana
+Like Colorado, Indiana uses a customized version of Quest Information Systems' FirstTuesday software. Full data downloads are available as zipped CSVs.
 
+* Main Agency: [Indiana Secretary of State](http://campaignfinance.in.gov/PublicSite/AboutDatabase.aspx)
+    * Authority: State candidates, state PACs
+    * Public Searches
+        * Search by committee name: YES
+        * Search by contributor name: YES
+        * Search by contributor address: YES
+        * Search by vendor name: YES
+    * Public Access
+        * Registration: HTML
+        * Report Summary: Scrapeable HTML
+        * Report Contributions: CSV, XLS, Text PDF, HTML
+        * Report Expenditures: CSV, XLS, Text PDF, HTML
+    * Public analysis tools
+        * No reporting tools are available, but there is a general statistics screen that shows current filing stats.
+    * Committee Filing
+        * Electronic committee registration, but in a very user unfriendly form-like manner
+        * Electronic filing
+    * Complaints: 
+* State Campaign Finance Law: 
 
 
 Iowa
