@@ -49,7 +49,6 @@ This is a compliation of research of state-by-state campaign finance information
 
 
 
-Alaska
 Arizona
 Arkansas
 California
@@ -82,7 +81,32 @@ Colorado has an advanced and complex campaign finance reporting system named TRA
 Connecticut
 Delaware
 Florida
-Georgia
+
+
+## Georgia
+Exporting results to Excel was extremely slow, saves files as .aspx
+
+* Main Agency: [Georgia Government Transparency and Campaign Finance Commission](http://ethics.ga.gov/) (State Ethics Commission) ("Georgia CFC")
+    * Authority: State offices, municipal offices
+    * Public Searches
+        * Search by committee name: YES
+        * Search by contributor name: YES
+        * Search by contributor address: YES
+        * Search by vendor name: YES
+    * Public Access
+        * Registration: HTML
+        * Report Summary: Scrapeable HTML
+        * Report Contributions: Text PDF, Scrapeable HTML, XLS
+        * Report Expenditures: Text PDF, Scrapeable HTML, XLS
+    * Public analysis tools
+        * Search by zipcode, report log of most recently filed reports, custom search for vendor gifts, lobbyist reports, personal financial reports and affidavits, business transaction reports, and late / non-filer reports
+    * Committee Filing
+        * Electronic filing...
+    * Complaints
+        * ...
+* State Campaign Finance Law: ...
+
+
 Hawaii
 Idaho
 Illinois
