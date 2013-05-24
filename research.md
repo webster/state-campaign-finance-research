@@ -108,7 +108,7 @@ Like Colorado, Indiana uses a customized version of Quest Information Systems' F
         * No reporting tools are available, but there is a general statistics screen that shows current filing stats.
     * Committee Filing
         * Electronic committee registration, but in a very user unfriendly form-like manner
-        * Electronic filing
+        * Electronic filing via EDI/XML uploads
     * Complaints: 
 * State Campaign Finance Law: 
 
