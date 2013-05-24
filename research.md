@@ -156,7 +156,33 @@ New Jersey
 New Mexico
 New York
 North Carolina
-North Dakota
+
+
+## North Dakota
+Contributor search tab-delimited file export capability does not work. No expenditures listed.
+
+* Main Agency: [North Dakota Secretary of State](http://campaignfinance.in.gov/PublicSite/AboutDatabase.aspx)
+    * Authority: State candidates, state PACs
+    * Public Searches
+        * Search by committee name: YES
+        * Search by contributor name: YES
+        * Search by contributor address: NO
+        * Search by vendor name: NO
+    * Public Access
+        * Registration: HTML
+        * Report Summary: Scrapeable HTML
+        * Report Contributions: HTML, Tab-Delimited file
+        * Report Expenditures: None
+    * Public analysis tools
+        * No reporting tools are available, but there is a link to show contributions by ZIP code.
+    * Committee Filing
+        * Electronic committee registration, but in a very user unfriendly form-like manner
+        * Electronic filing via EDI/XML uploads
+    * Complaints: 
+* State Campaign Finance Law: 
+
+
+
 Ohio
 Oklahoma
 Oregon
