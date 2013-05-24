@@ -1,0 +1,1190 @@
+Doc ID:  FEC_Mods.txt						   Date:  6/29/2012
+
+
+
+			F E D E R A L   E L E C T I O N   C O M M I S S I O N
+			=====================================================
+
+				   Vendor Package Version 8.0.1.8
+				   ==============================
+
+
+
+       Change History for FECheck, Forms, Formats & Documentation
+       ===========================================================
+
+Summary of Modifications made from FEC Version 8.0.1.7 to Version 8.0.1.8
+=========================================================================
+
+Changes to Vendpak inclusion files Version 8.0.1.8:
+===================================================
+1)Updated F1 Field #12 text in FEC_Format_v8.0.xlsx;
+2)Added New Email failure message to APPENDIX B - (VALIDATION MESSAGES) of
+  FEC_Format_v8.0.pdf;
+3)Modified FEC_Format_v8.0.pdf (this file) to include FECPrint, FECCheck
+  and FECLoad updates in Appendix D;
+4)Update FEC_MODS.TXT to reflect all modifications; and
+5)Version number updated.
+
+
+Changes to FECPrint Version 8.0.1.8:
+====================================
+1)F1 Committee Email field split into two locations and mapped accordingly
+  based on semi-colon or coma;
+2)F3X / F3P correctly marks the Monthly Year End (MYE) Check box;
+3)Schedule C1 "Due Date" Mapping issue corrected;
+4)Form 7.6 (each communication) now prints all transactions; 
+5)Form 7.6 (each communication) now prints memo transactions;
+6)Updated the imager to allow and print the Section Symbol (§);
+7)F3, F3X, & F3P Termination logic corrected;
+8)SchL, Field 25 mapping issue corrected; and
+9)Version number updated.
+
+Changes to FECCheck Version 8.0.1.5:
+====================================
+1)Validation failures added to F1 Committee Email field (#12);
+     i) No spaces will be permit within the field,
+    ii)	Both emails must be in standard email format,
+   iii)	Only semicolon and comma delimiters will be acceptable,
+    iv)	Only two emails will be acceptable, and
+     v)	If delimiter is supplied, second email must also exist.
+2)Erroneous Form 5 – F56 Committee ID failure corrected;
+3)Form 9.4 (Federal Candidate List) Transaction ID fatal error resolved Erroneous
+  H3 back-reference warning removed;
+4)F5 Summary Line Descriptions corrected;
+5)Validator Message now displays missing F24 Committee name; and
+6)Version number updated.
+
+Changes to FECLoad Version 8.0.1.4:
+===================================
+1)New auto SSL retry added if TCP/IP upload method fails;
+2)SSL module now uses system proxy settings automatically if available (Windows only);
+3)Upgraded SSL web services to circumvent proxies server issue; and
+4)Version number updated.
+
+*******************************************************************************
+ 
+Summary of Modifications made to FEC Version 8.0.1.4 thru Version 8.0.1.5
+=========================================================================
+
+Changes to Vendpak inclusion files Version 8.0.1.5:
+===================================================
+1)Modified FEC_Format_v8.0.pdf (this file) to include FECPrint and FECCheck
+  updates in Appendix D;
+2)Update FEC_MODS.TXT to reflect all modifications; and
+3)Version number updated.
+
+Changes to FECPrint Version 8.0.1.5:
+====================================
+1)F3X / F3P correctly marks the Monthly Year End (MYE) Check box;
+2)Schedule C1 "Due Date" Mapping issue corrected; and
+3)Version number updated.
+
+Changes to FECCheck Version 8.0.1.1:
+===================================
+1)Erroneous H3 back-reference warning removed;
+2)Error Message added for F1S records without data; and
+3)Version number updated.
+	   
+*******************************************************************************   
+	   
+Summary of Modifications made to FEC Version 8.0.1.3 thru Version 8.0.1.4
+=========================================================================
+
+Changes to Vendpak inclusion files Version 8.0.1.4:
+===================================================
+1)Modified FEC_Format_v8.0.pdf (this file) to include FECLoad and FECPrint updates in Appendix D;
+2)Removed obsolete Transaction Code section;
+3)Update FEC_MODS.TXT to reflect all modifications; and
+4)Version number updated.
+
+Changes to FECPrint Version 8.0.1.4:
+====================================
+1)Corrected F99 Imaging/Pagination (Backend) page count discrepancy;
+2)Section III and IV totals now printing on F3S;
+3)Modified default location of temporary file to User-Temp; and
+4)Version number updated.
+
+Changes to FECload Version 8.0.1.2:
+===================================
+1)SSL Proxy Server settings now used correctly;
+2)Update Readme.txt to JAVA memory options;
+3)Optimized to handle larger fi	lings; and
+4)Version number updated.
+	   
+*******************************************************************************
+
+Summary of Modifications made to FEC Version 8.0.1.1 thru Version 8.0.1.3
+=========================================================================
+
+Changes to Vendpak inclusion files Version 8.0.1.3:
+=================================================== 
+
+1)Modified FEC_Format_v8.0.pdf to include FECLoad and FECPrint updates in
+  Appendix D;
+2)Update FEC_MODS.TXT (this file) to reflect all modifications; and
+3)Version number updated.
+
+Changes to FECPrint Version 8.0.1.3:
+====================================
+
+1)Modified SB printing of F3,F3X,F3P, F4 to default the Beneficiary
+  Candidate Name over the Beneficiary Committee Name;
+2)Corrected H4 Purpose not printing correctly;
+3)Corrected H4 Direct Candidate support totaling for Federal portion;
+4)JFR causing Pagination (Backend) failure on F1 resolved;
+5)F1S with only additional bank causing Pagination (Backend) failure on F1 no longer occurs;
+6)F2 Candidate first name now displays;
+7)Black Command window now closes immediately following FECPrint launch;
+8)H3 line iv-c totals correctly even if cents not provided;
+9)H6 Transaction Purpose duplication issue on first and second transactions resolved; and
+10)Version number updated.
+
+Changes to FECload Version 8.0.1.1:
+====================================
+
+1)Corrected a SSL upload issue;
+2)Server Error message are properly returned instead of generic JAVA 
+  message ":Reason:Null";
+3)Larger filings no longer hang during upload;
+4)Supersedes function works with discloseclient and from UI; and
+5)Version build number updated.
+
+
+*******************************************************************************
+
+Summary of Modifications made to FEC Version 8.0.1.1 thru Version 8.0.1.2
+=========================================================================
+
+Not Released
+
+
+*******************************************************************************
+
+Summary of Modifications made to FEC Version 8.0.1.0 thru Version 8.0.1.1
+=========================================================================
+
+Changes to Vendpak inclusion files Version 8.0.1.1:
+=================================================== 
+
+1)Modified FEC_Format_v8.0.pdf (this file) to include FECLoad and FECPrint Usage
+  information;
+2)Update FEC_MODS.TXT to reflect all modifications; and
+3)Version number updated.
+
+Changes to FECPrint Version 8.0.1.1:
+====================================
+
+1)FECPrint updated to add new F3P Template;
+2)License jar library was update to production
+3)Corrected various mapping issue; and
+4)Version number updated.
+
+
+Changes to FECload Version 8.0.1.0:
+====================================
+
+1)About box to correct width;
+2)Copy paste allowed except in password fields; 
+3)Defaults configurations set to production values
+4)Adjusted GUI display on MAC; and
+5)Version build number updated.
+
+
+*******************************************************************************
+
+Summary of Modifications made to FEC Version 7.0 creating FEC Format Version 8.0
+================================================================================
+
+Changes to Vendpak inclusion files Version 8.0.1.0:
+=================================================== 
+
+1)Modified FEC_Format_v8.0.pdf (this file) and FEC_Format_v8.0.xlsx to conform with
+  new E-Filing format modifications; 
+2)Update FEC_MODS.TXT to reflect all modifications; and
+3)Version number updated.
+
+
+Changes to E-Filing Format Version 8.0:
+=======================================
+1)All City Field Lengths were increased from A/N-18 => A/N-30
+2)All Organization Name increased from A/N-90=>A/N-200
+3)Various validation rule modifications (detailed in FECCheck section)
+4)F24 and F6 are now amendable Fields
+5)New date fields added to F24 and F6 (ORIGINAL AMENDMENT DATE)
+  -Affected fields renumbered
+6)All Disbursement Purpose Code Field Removed and affected fields renumbered
+
+NOTE: A detail itemization of the modifications are provide in the 'SUMMARY OF
+CHANGES' sheet of the E-Filing Format.
+
+
+Changes to FECCheck Version 8.0.1.0:
+====================================
+
+1)F1 (Statement of Organization):
+	- “Committee Email” – update to a failing level error if field is null
+	- Candidate District” – update to a warning level error if field is null
+	  and Committee Type is a “ B” (Authorized Committee) and Candidate Office
+	  is “H” (House)
+	- “Bank Name” – update to a failing level error if field is null
+2)F2 (Statement of Candidacy):
+	- “PCC Committee Name” - update to a warning level error if field is null
+	- “PCC Street 1 & 2” - update to a warning level error if field is null
+	- “PCC City” - update to a warning level error if field is null
+	- “PCC State” - update to a warning level error if field is null
+	- “PCC Zip” - update to a warning level error if field is null
+3)F3Z (Consolidation Report of Receipts and Expenditures):
+	- “Committee Name” - update to a warning level error if field is null
+4)F3P (Report of Receipts and Disbursements Auth Committee for Pres):
+	- “State of Election” - update to a warning level error if field is null
+	  and if Report Code is 12(_) and if Election Code is anything other than
+	  “G” (General)
+5)F3P31 (Line 31 Attachment):
+	- “Contributor Last Name” - update to a failing level error if field is null 
+	- “Contributor First Name” - update to a failing level error if field is null 
+6)F5 (Report of Independent Expenditures Made and Contributions Received):
+	- “Total Contribution” - update to a warning level error if field is null
+	- “Total Independent Expenditure” - update to a failing level error if field
+	  is null
+7)F56 (Form 5 Schedule A Contributions):
+	- “Contributor Date” – update to a warning level error if field is null
+	- “Contributor Amount” - update to a warning level error if field is null
+8)F57 (Form 5 Schedule E Expenditures):
+	- “Election Code” - update to a failing level error if field is null
+	- “Expenditure Date” – update to a failing level error if field is null
+	- “Expenditure Amount” - update to a failing level error if field is null
+	- “Expenditure Purpose Description” – update to a warning level error if
+	  field is null
+	- “Support/Oppose Code” - update to a warning level error if field is null
+	- “Support/Oppose Candidate Last Name” – update to a failing level error if
+	  field is null
+	- “Support/Oppose Candidate First Name” - update to a failing level error if
+	  field is null
+	- “Support/Oppose Candidate Office” – update to a warning level error if
+	  field is null
+	- “Support/Oppose Candidate State” - update to a warning level error if
+	  field is null and Candidate Office is “H” (House) or “S” (Senate)
+	- “Support/Oppose Candidate District” - update to a warning level error if
+	  field is null and Candidate Office is “H”(House)
+9)F6 ( 48 Hour Notice):
+	- “Signer Last Name” - update to a failing level error if field is null
+	- “Signer First Name” - update to a failing level error if field is null
+10)F65 (Form 6 Schedule A):
+	- “Contributor Date” – update to a warning level error if field is null
+	- “Contributor Amount” - update to a warning level error if field is null
+11)F9 ( 24 Hour Notice of Disbursements For Electioneering Communications):
+	- “Entity Type” – update to a failing level error if field is null
+	- “Organization Name” – update to a failing level error if field is null 
+	- “Individual Last Name” - update to a failing level error if field is null
+	- “Individual First Name” - update to a failing level error if field is null
+	- “Custodian Street” - update to a warning level error if field is null
+	- “Custodian City” - update to a warning level error if field is null
+	- “Custodian State” - update to a warning level error if field is null
+	- “Custodian Zip” - update to a warning level error if field is null
+12)F92 (Each Donation):
+	- “Date Received” - update to a warning level error if field is null
+	- “Amount Received” - update to a warning level error if field is null
+13)F93 (Each Disbursement):
+	- “Election Code” - update to a failing level error if field is null
+	- “Expenditure Date” – update to a failing level error if field is null
+	- “Expenditure Amount” - update to a failing level error if field is null
+	- “Expenditure Purpose Description” - update to a warning level error if
+	  field is null
+	- “Communication Date” - update to a failing level error if field is null
+14)F94 (Federal Candidate List for Form 93 Transactions):
+	- “Candidate Last Name” - update to a failing level error if field is null
+	- “Candidate First Name” - update to a failing level error if field is null
+	- “Candidate Office” - update to a warning level error if field is null
+	- “Candidate State” - update to a warning level error if field is null and
+	  Candidate Office is “H” (House) or “S” (Senate)
+	- “Candidate District” - update to a warning level error if field is null
+	  and Candidate Office is “H”(House)
+15)SC (Loans):
+	- “Election Code” - update to a warning level error if field is null and if
+	  filed with a Form 3/3P
+16)SC1 (Loans and Lines of Credit):
+	- “Loan Amount” – update to a failing level error if field is null
+	- “Loan Interest Rate” - update to a warning level error if field is null
+	- “Loan Incurred Date” - update to a failing level error if field is null
+	- “Loan Due Date” - update to a failing level error if field is null
+17)SE (Itemized Independent Expenditures):
+	- “Election Code” - update to a failing level error if field is null
+	- “Expenditure Date” - update to a failing level error if field is null
+	- “Expenditure Amount” – update to a failing level error if field is null
+	- “Expenditure Purpose Description” – update to a warning level error if
+	  field is null
+	- “Support/Oppose Candidate Last Name” - update to a failing level error if
+	  field is null
+	- “Support/Oppose Candidate First Name” - update to a failing level error
+	  if field is null
+	- “Support/Oppose Candidate Office” - update to a warning level error if
+	  field is null
+	- “Support/Oppose Candidate State” - update to a warning level error if
+	  field is null and Candidate Office is “H” (House) or “S” (Senate)
+	- “Support/Oppose Candidate District” - update to a warning level error if
+	  field is null and Candidate Office is “H”(House)
+18)SF (Expenditures Made by Party Committees on Behalf of Candidates):
+	- ”Designating Committee Name” - update to a warning level error if field is
+	  null and “Y” (Yes) is checked (Filer has been designated to make
+	  coordinated expenditure)
+	- “Expenditure Date” - update to a failing level error if field is null
+	- “Expenditure Amount” - update to a failing level error if field is null
+	- “Expenditure Purpose Code” - update to a warning level error if field is
+	  null and aggregate is greater than $0.00
+	- “Payee Candidate Last Name” - update to a failing level error if field
+	  is null
+	- “Payee Candidate First Name” - update to a failing level error if field
+	  is null
+	- “Payee Candidate Office” - update to a warning level error if field
+	  is null
+	- “Payee Candidate State” - update to a warning level error if field is null
+	  and Candidate Office is “H” (House) or “S” (Senate)
+	- “Payee Candidate District” - update to a warning level error if field is
+	  null and Candidate Office is “H” (House)
+19)Version number updated
+
+
+Changes to FECPrint Version 8.0.1.0:
+====================================
+
+1)FECPrint was converted to Cross-Platform JAVA module;
+2)Update to use v8 format modifications; and
+3)Version number updated.
+
+
+Changes to FECload Version 8.0.1.0:
+====================================
+
+1)FECLoad was converted to Cross-Platform JAVA module; and
+2)Version number updated.
+
+************************************************************************************
+
+Summary of Modifications made to FEC Version 6.4 creating FEC Format Version 7.0
+================================================================================
+
+Summary of Modifications made to FEC Version 7.0.1.0 thru Version 7.0.1.2
+=========================================================================
+
+
+Changes to Vendpak inclusion files Version 7.0.1.2:
+=================================================== 
+
+1)Modified FEC_Format_v7.0.pdf (this file) and FEC_Format_v7.0.xlsx to conform with
+  new FECCheck 7.0.1.2 modifications; 
+2)Update FEC_MODS.TXT to reflect all modifications; and
+4)Version number updated.
+
+Changes to FECCheck Version 7.0.1.2:
+====================================
+
+1)Schedule B Beneficiary fields (#26 - 36) are no longer flagged as warnings;
+2)TEXT back reference tightened, but allows TEXT record to back reference Schedule
+  Line number;
+3)Fixed a bug on SB first name was not conditionally required;
+4)Validation corrected to error/warn on data type failure based on the documentation;
+5)Tightened illegal characters and now allowing ASCII 9, 10, 11, and 13; and
+6)Version number updated
+
+Changes to FECPrint Version 7.0.1.1:
+====================================
+
+1)Corrected F3S Summary totals mapping issue;
+2)Corrected F3X 12 Day Pre-Special abbreviation from 12G to 12S; and
+3)Version number updated.
+
+*******************************************************************************
+
+Summary of Modifications made to FEC Version 7.0.1.0 thru Version 7.0.1.1
+=========================================================================
+
+Changes to Vendpak inclusion files Version 7.0.1.1:
+=================================================== 
+
+1)Modified FEC_Format_v7.0.pdf  (this file) to conform with new FECCheck 7.0.1.1
+  modifications; 
+2)Update FEC_MODS.TXT to reflect all modifications;
+3)A windows batch file that displays exit status code and usage information is now
+  included in FECCheck folder; and
+4)Version number updated.
+
+Changes to FECCheck Version 7.0.1.1:
+====================================
+
+1)FECCheck.jar now includes .MS2 (-m) and MS3 (–t) file output capability via a
+  command line option/switch;
+2)FECCheck.jar now includes Usage information option/switch (-h);
+3)FECCheck.jar now includes UNIX compatible exit status codes with the use of an
+  option/switch (-u); 
+4)Output message file will be overwritten if same filename exist, but will fail
+  if privileges are insufficient; and
+5)Version number updated.
+
+Changes to Vendpak inclusion files Version 7.0.1.0:
+===================================================
+
+1)Modified FEC_Format_v7.0.xlsx  to conform with new F3P and F3PS Form
+  modifications;
+2)Modified FEC_Format_v7.0.pdf  (this file) conform with new F3P and F3PS Form
+  modifications; and
+3)Update FEC_MODS.TXT to reflect all modifications.
+
+Changes to Format Version 7.0:
+==============================
+ 
+1)HDR – Header record in electronic filing;
+   •Field #3 – FEC Format Version Number must be ‘7.0’
+2)F3P – Report of Receipts and Disbursements for an Presidential Committee;
+   •Fields 35-37 – New contribution itemization fields added, and
+   •Layout renumbered after #34.
+3)F3PS – Additional Summary Report of Receipts and Disbursements for an Presidential
+  Committee;
+   •Fields 8-10 – New contribution itemization fields added, and
+   •Layout renumbered after #7.
+4)Form 8 (Debt Settlement Plan) and its schedules (F82 & F83) have been removed;
+5)TEXT – Misc. Text Related to a Report, Schedule or Itemization; and
+   •Fields 4 & 5 – Required Rule clarified and enforced.
+6)Several layouts (F1, F3S, F3X, F3L, F5, F7, H3, & TEXT) contain textual
+  modifications without impact.
+
+
+Changes to FECheck6 Version 7.0.1.0: 
+====================================
+
+1)FECHeck6 was renamed to FECCheck;
+2)FECCheck was converted to Operating System (OS) independent JAVA Platform;
+3)Inserted new F3P / F3PS fields in the FECCheck validation routine; and
+4)TEXT – Misc. Text Related to a Report, Schedule or Itemization.
+   •Fields 4 & 5 – Required Rule clarified and enforced.
+
+Changes to FECPrint Version 7.0.1.0:
+====================================
+ 
+1)New F3P / F3PS contribution fields added. 
+
+
+*******************************************************************************
+
+Summary of Modifications made to FEC Version 6.4.1.6 thru Version 6.4.1.8
+=========================================================================
+
+Changes to Vendpak inclusion files Version 6.4.1.8:
+===================================================
+
+1) Modified demo.c to display correct command line usage;
+2) Modified demo.c to not to pass md5 as a parameter; and
+3) Recompiled DEMO.exe and replaced it with existing one.
+
+
+Changes to FECheck6 Version 6.4.1.8:
+====================================
+
+1) FECheck6.dll modified to write all intermediate, temporary work files to
+   the Windows User's "temp" folder.
+2) Modified both Windows dll and Command-line exe versions to accommodate 
+   directory/file paths that contain spaces.
+
+
+Changes to FECPrint Version 6.4.1.8:
+====================================
+
+1) Addresses imaging issue that caused core dumps
+
+
+
+Changes to FECPrint Version 6.4.1.7:
+====================================
+
+1) Corrected mapping issue on F3 Summary Page line numbers 6-10.
+
+*******************************************************************************
+
+Summary of Modifications made to FEC Version 6.4.1.1 thru Version 6.4.1.6
+=========================================================================
+
+Changes to FECPrint Version 6.4.1.6:
+{Includes unreleased 6.4.1.2 --> 6.4.1.5 changes}
+=================================================
+
+1) Report Text to display after the Signature Page (First Page); and
+
+2) Text records to display appropriate label letter (A, B, C, D,....etc.)
+
+
+Changes to FECPrint Version 6.4.1.5:
+{Released in 6.4.1.6 Vendor Package}
+====================================
+
+1) Blank amount fields modified to not display 0.00;
+
+2) Text Record spacing issue corrected.
+
+
+Change to FECPrint Version 6.4.1.4:
+{Released in 6.4.1.6 Vendor Package}
+====================================
+
+1) F3L missing image number correction.
+
+
+Changes to FECPrint Version 6.4.1.3:
+{Released in 6.4.1.6 Vendor Package}
+====================================
+
+1) TEXT Records no longer cause pagination errors;
+
+2) Schedule D Totaling error corrected.
+
+
+Change to FECPrint Version 6.4.1.2:
+{Released in 6.4.1.6 Vendor Package}
+====================================
+
+1) F3L Image number assignment adjustment;
+
+
+Change to FECheck6 for Version 6.4.1.2:
+{Released in 6.4.1.6 Vendor Package}
+=======================================
+           
+1) Corrected four of the new Report Type codes used for some F3L filings:
+
+v6.4.1.1  v6.4.1.2
+--------  --------
+   Q2A  -->  QSA
+   QYA  -->  QYE
+   M7A  -->  MSA
+   MYA  -->  MSY
+
+*******************************************************************************
+
+Summary of Modifications made to FEC Version 6.4.1.0 thru Version 6.4.1.1
+=========================================================================
+
+Changes to FECheck6 for Version 6.4.1.1:
+========================================
+
+1) Corrected Comma in Amount Field Error when comma added to Address2 field
+
+
+Changes to FECPrint Version 6.4.1.1:
+====================================
+
+1) Removed displayed squares at the end of Text Records for Non-Vista Operating
+   Systems;
+
+2) Corrected Schedule L-B line 4A to display Text Record.
+
+
+
+*******************************************************************************
+
+Summary of Modifications made to FEC Format Version 6.3 creating FEC Ver. 6.4
+=============================================================================
+
+
+Changes to FECheck6 for Version 6.4.1.0:
+========================================
+
+The primary changes in Version 6.4 are:
+   1) Form F3L (reporting for Lobbyists) has been added;
+   2) Form F10 (24-hour notice of Personal Expenditures) and its F105 schedule
+      have been removed.
+   3) ALL Dollar Amount fields may no longer be coded with (,) commas.
+     (Any amount fields coded with commas will be flagged as Errors and
+      the filing will not be accepted until amounts are corrected.)
+   4) F24 filings no longer accept Schedule F records.
+
+
+Details about version 6.4.1.0 format changes are enumerated below:
+
+1) HDR- Header record in electronic filing Field #3 - FEC Format Version 
+   Number must be '6.4' 
+
+
+2) F2 - Form 2 - Statement of Candidacy
+
+ - F2; Layout field locations renumbered after Fields 33 & 34 Declaration of
+       Intent to Spend Personal Funds for the Primary and General removed.
+
+
+3) F3 - Form 3 - Report of Receipts and Disbursements
+
+ - F3; 13 Fields (#24-30 and #101-106) related to Form 3Z-1 removed and
+       Fields following #23 DATE SIGNED renumbered.
+
+ - SA; Field #25 - INCREASED LIMIT code removed. SA Layout renumbered.
+
+ - SB; Field #26 REFUND/DISPOSAL OF EXCESS check-box removed from form and 
+       layout.
+
+ - SB; Field #27 COMMUNICATION DATE removed (applied only to F9 filings which
+       no longer use the SB layout.
+
+
+4) F3L - Form 3L - Lobbyists Report of Bundled Contributions and Expenditures
+
+ - F3L; New Layout
+
+ - F3L; Added new Report Type codes unique to F3L filings:
+
+   QUARTERLY FILERS 
+     Q2S -- July 15 (Q2) report {with coverage dates} and Semi-annual
+     Q2A -- Semi-Annual only {no Q2 & no coverage dates}
+     QYS -- Jan 31 Year End (YE) report {with coverage dates} and Semi-Annual
+     QYA -- Semi-Annual only {No YE & no coverage dates}
+     QMS -- July 31 Mid-Year (MY) report {with coverage dates} and Semi-annual
+
+   MONTHLY FILERS 
+     M7S -- July 20 (M7) Monthly report {with coverage dates} and Semi-Annual
+     M7A -- Semi-Annual only {No M7 - no coverage dates }
+     MYS -- Jan 31 Year End (MYE) report {with coverage dates} and Semi-annual
+     MYA -- Semi-Annual only {No MYE & no coverage dates}
+
+
+ - SA; Col "Used for Filing(s)" added for clarity since SA's now used for F3L 
+   in addition to F3, F3X and F3P filings.  
+
+ - SB; Col "Used for Filing(s)" added for clarity since SB's now used for F3L 
+   in addition to F3, F3X and F3P filings.  
+
+ - SB; Field #22 - Semi-annual Refunded Bundled Amt added. Layout renumbered.
+
+
+5) SA - Schedule A – Itemized Receipts
+
+ - Field #25 - INCREASED LIMIT removed from Form & Layout.
+
+ - Layout renumbered starting after Field #24.
+
+
+
+6) SB - Schedule B - Itemized Expenditures
+
+ - Added Field #22 SEMI-ANNUAL REFUNDED BUNDLED AMT
+
+ - Fields #26 & #27 removed
+
+ - Renumbered Layout beginning after Field #21
+
+
+7) SF - Schedule F (Used with F3X filings)
+
+ - Fields #10-15 - Subordinate Name/Address information is now Optional (not 
+   Required) 
+
+ - Field #34 - INCREASED LIMIT removed from Form & Layout.
+
+ - Layout renumbered.
+
+
+8) F10 - "24-hour notice of Personal Expenditures" filings are no longer filed
+   with the FEC and layouts for the F10 cover and F105 schedule have been
+   removed from the Version 6.4 documentation.
+
+
+
+Changes to FECPrint Version 6.4.1.0:
+====================================
+1) Form F3L (reporting for Lobbyists) has been added;
+
+2) Field removals in accordance with Format changes above; 
+
+3) The Report and Transaction Text Records have been relocated;
+ - Report Text Record now displays after report summary pages
+ - Transaction Text Records now display on the pages immediately following
+   the transactions
+
+4) SC and SC1 interest rate now displaying correctly.
+
+
+
+*******************************************************************************
+
+
+Summary of Modifications made to FEC Version 6.2 creating FEC Format Version 6.3
+================================================================================
+
+
+Changes to FECheck6 for Version 6.3.1.0:
+========================================
+
+Changes to Form 1 necessitate modifications to the electronic filing formats 
+for F1 and F1S.
+
+Details about version 6.3.1.0 format changes are enumerated below:
+
+1) HDR- Header record in electronic filing Field #3 - FEC Format Version 
+   Number must be '6.3' 
+
+2) F1 - Form 1 - Statement of Organization F1 layout field locations 
+   renumbered with 10 fields added and 1 field deleted.
+   Version 6.3 layout has 99 fields {version 6.2 had 90 fields}.
+
+  F1; Field #11 - Change of Committee Email Check-box added.
+
+  F1; Field #13 - Change of Committee Web URL Check-box added.
+
+  F1; Old Field #13- Committee FAX Number removed.
+
+  F1; Field #35 - 5(e) Lobbyist/Registrant PAC Check-box added.
+
+  F1; Field #36- 5(f) Lobbyist/Registrant PAC Check-box added.
+
+  F1; Fields #40-45 - Affiliated Candidate ID Number and Cand/Ind names 
+       added.  
+
+3) F1S - Form 1 - Statement of Organization (Additional Information) F1S
+   layout field locations renumbered with 6 fields added.
+   Version 6.3 layout has 36 fields {version 6.2 had 30 fields}.
+
+  F1S; Fields #7-12- Affiliated Candidate ID Number and Cand/Ind names added.
+
+4) Bug fix in unreleased Version 6.2.1.3 {see below} is included in this 
+   release.
+
+
+*******************************************************************************
+
+
+Summary of Modifications made to FEC Version 6.2.1.1 thru Version 6.2.1.3
+=========================================================================
+
+
+Changes to FECheck6 for Version 6.2.1.3:  {Not released}
+========================================================
+
+1) Program bug that prevented TEXT messages from cross-referencing H3 Admin 
+   records (where H3 field #6 "Event Type" = 'AD') is fixed.  TEXT messages
+   can now be cross-referenced to H3 Admin and H3 non-Admin records.  
+
+
+Summary of Changes to Version 6.2.1.2 Format:
+=============================================
+
+Clarification about when Fields #36 - #41 (Affiliated Committee Information)
+are required. They are required (Warning Level-4) when the Filer is a type "E"
+committee (Field #21 COMMITTEE TYPE) or when the filer is a type "F" committee
+AND the committee is a "Leadership PAC" (field #34 = "X").
+
+Schedule B Beneficiary fields (#27 - 37) are no longer flagged as missing based
+on the entity named in the schedule. Fields #30 - 37 (Name and Office Info) are
+not edited for completeness - fields are only checked for validity if they are
+not blank. {The documentation still suggests when beneficiary fields should be
+used based on whether the entity is a 'CAN', 'CCM', 'PAC' OR 'PTY'.}
+
+
+Changes to FECheck6 for Version 6.2.1.2:
+========================================
+
+1) Program modified to require Affiliated Committee Info (fields #36-41) for 
+   Type "E" committees and for Type "F" committees that are ALSO Leadership 
+   PAC's.  
+
+2) Schedule B Beneficiary fields (#27 - 37) are no longer flagged with Level-4 
+   warnings when missing.  {Documentation still suggests when beneficiary 
+   fields should be coded based on whether the entity is a 'CAN', 'CCM', 'PAC' 
+   OR 'PTY'.} 
+
+3) Schedule B Beneficiary Name & Office Info fields {#30 - 37) are no longer
+   tested as a group for completeness. Fields are edited individually so when
+   non-blank, they are tested for valid values, but when blank, no warnings
+   about "conditionally required" data are given.
+
+4) Regarding Form 9 test whether field #37 "TOTAL DONATIONS THIS STATEMENT" is 
+   equal to the aggregate of schedule F92 and the test whether field #38 "TOTAL 
+   DISB./OBLIG. THIS STATEMENT" is equal to the aggregate of schedule F93: 
+
+   Warning messages corrected to reference the correct field name.
+
+
+
+Changes to FECPrint Version 6.2.1.1:
+====================================
+1) The F65 Filer Name is now mapped from F6 Field #3.
+
+2) The SB now displays the Beneficiary Candidate name as default if Beneficiary
+   Committee name is also populated.
+
+3) Correct SC1 Field #24 to display as a percentage
+
+4) F3P ==> SA-P now displays Memo Text/Description when field #46 is populated.
+
+
+*******************************************************************************
+
+
+Summary of Changes to Version 6.2.1.0 Format:
+=============================================
+
+Changes to Form 1 and Form 9 necessitate modifications to the electronic filing 
+formats for those forms. A new requirement that the committee name for donors 
+and recepient beneficiaries be identified results in a modification to 
+electronic formats for Schedule A and B. Schedule C has a new code for 
+indicating whether a loan is from "personal funds".  Details about version 6.2 
+format changes are enumerated below: 
+
+
+1) HDR - Header record in electronic filing Field #3 - FEC Format Version 
+   Number must be '6.2' 
+
+
+2) Form 1 - Statement of Organization
+
+   - F1 layout field locations renumbered with 3 fields added and 2 fields 
+     deleted. Version 6.2 layout has 90 fields {version 6.1 had 89 fields}.  
+
+   - F1; Field #21 - Committee Type has two additional code values: 'G' = Joint 
+     Fundraising Representative for 2 or more political committees {at least 
+     one of which is authorized}; and 'H' = Joint Fundraising Representative 
+     for 2 or more political committees {none of which is an authorized 
+     committee}.  
+
+   - F1; Field #33- 5(e) Organization Type added. This new field is used to 
+     identify the type of organization [C=Corporation; T=Trade Association; 
+     L=Labor Org; M=Membership Org; V=Cooperative; W=Corp w/o Capital Stock] 
+     when Type of Committee in section 5 is a Political Action Committee (PAC) 
+     that is a Type "e" Separate Segregated Fund.  
+
+   - F1; Field #34 - 5(f) Leadership PAC added. New check box field indicates 
+     if a type "f" Support/Oppose committee is a "Leadership PAC".  
+
+   - F1; Section 6 Relationship Description and Organization Type fields 
+     removed. {The Organization Type field is now used in Section 5(e) to 
+     describe the Segregated Fund PAC.} 
+
+   - F1; Field #42 - 6. Affiliated Relationship Code added. This new 3-
+     character code is used to identify how the Connected/Affiliated Committee 
+     is related to Committee that is filing the F1 Statement of Organization 
+     [ORG=Connected Organization; AFF=Affiliated Committee; LPS=Leadership PAC 
+     Sponsor; JFR=Joint Fundraising Representative].  If coded in error, a 
+     level-4 message: 'Affiliation/Relation Code "value" is not valid' is 
+     generated.  
+
+   - F1S layout field locations renumbered with 3 fields added and 2 fields 
+     deleted.  Version 6.2 layout has 30 fields {version 6.1 had 29 fields}.  
+
+   - F1S; Fields #3 Joint Fundraising Participant (JFP) Name and #4 JFP FEC 
+     ID# added. Each Committee Participating in a Joint Fundraiser (section 5 
+     of Form 1) is coded on a separate F1S record. {This differs from 
+     Affiliated, Agent and Bank information where the first few iterations are 
+     coded on the F1 record.} 
+ 
+   - F1S; Section 6 Relationship Description and Organization Type fields 
+     removed.  
+
+   - F1S; Field #12- 6. Affiliated Relationship Code added. This 3-character 
+     code is used to identify how the Connected/Affiliated Committee is related 
+     to Committee that is filing the F1 Statement of Organization 
+     [ORG=Connected Organization; AFF=Affiliated Committee; LPS=Leadership PAC 
+     Sponsor; JFR=Joint Fundraising Representative].  If coded in error, a 
+     level-4 message: 'Affiliation/Relation Code "value" is not valid' is 
+     generated.  
+
+
+3) Form 9 - 24-Hour Notice of Disbursements/Obligations for Electioneering 
+   Communications
+
+   - F9 layout field locations renumbered with 2 fields added and 1 field 
+     deleted. Version 6.2 layout has 44 fields {version 6.1 had 43 fields}.  
+
+   - F9; Qualified Non-profit check box field removed.  
+
+   - F9; Field #22 - Filer Code added.  The new 3-character code is used to 
+     identify the type of individual or business making the disbursement or 
+     creating the obligation for electioneering communications. Possible values 
+     are: IND = Individual; UNO = Unincorporated Org; QNC = Qualified Nonprofit 
+     Corp {under 11 CFR 114.10}; CLQ = Corp, Labor Org or QNC {under 11 CFR 
+     114.15}; or OTH = "Other".  If coded in error, a level-4 message: 
+     'Corporation Type Code "value" is not valid' is generated.  
+
+   - F9; Field #23- Filer Code Description added.  A description is required if 
+     the Filer Code is "OTH" - Other.  
+
+
+4) Schedule A - Itemized Receipts
+
+   - SA layout field locations renumbered with 1 field added. Version 6.2 
+     layout has 47 fields {version 6.1 had 46 fields}.  
+
+   - Added {inserted} field #29 Donor Committee Name.  Clarified instructions 
+     in layout that when a donor is a Candidate Committee, PAC or Party, then 
+     both Donor Committee FEC ID and Donor Committee name must be included in 
+     fields #28 and #29.  
+
+
+5) Schedule B - Itemized Disbursements
+
+   - SB layout field locations renumbered with 1 field added. Version 6.2 
+     layout has 46 fields {version 6.1 had 45 fields}.  
+
+   - Added {inserted} field #28 Beneficiary Committee Name.  Clarified 
+     instructions in layout that when a payee is a Candidate Committee, PAC or 
+     Party, then both Beneficiary Committee FEC ID and Beneficiary Committee 
+     name must be included in fields #27 and #28. {Beneficiary refers to the 
+     Candidate/Committee that benefits from the payment made to the "payee" 
+     named in field #7 Payee Organization Name.} 
+
+
+6) Schedule C - Loans
+
+   - SC layout field locations renumbered with 3 fields added.  Version 6.2 
+     layout has 38 fields 
+     {version 6.1 had 35 fields}.
+
+   - Added {inserted} field #26 YES/NO (Personal Funds).  
+
+   - Added {appended} fields #37 & #38 Memo Code and Memo Text/Description.  
+
+
+7) Forms 3X & 3P {these checks were added to FECheck6 v6.1.1.4}
+
+   - Separate codes are used to distinguish between monthly filers and 
+     quarterly filers when they are filing Year-End reports.  
+
+   - Quarterly filers of Year-End reports will continue to code Report Type 
+     = 'YE'. {No change from current practice}
+
+   - Monthly filers of Year-End reports should now code Report Type ='MYE'.  
+     {This allows print rendering to show "X" in the proper box on the form.} 
+
+
+8) Schedule H3 - Transfers from Non-Federal Accounts
+
+   - Added notation to the layout to clarify that H3 records for all Event 
+     Types must have a Back Reference Tran ID (field #4) that points to the 
+     Transaction ID (field #3) of the ADministrative H3 record. {One AD record 
+     is required and any number of "non-AD" records are optional.} 
+
+
+
+Changes to FECheck6 for Version 6.2.1.0:
+========================================
+
+1) Program modified to support format changes to record types HDR, F1, F1S, F9, 
+   SA, SB and SC as described above.
+
+2) Two new Level-4 messages added:
+
+   - Message 'Affiliation/Relation Code "value" is not valid' is issued when
+     the Affiliated Relation Code (F1; field #42 and F1S; field #12) is not
+     equal to [ORG|AFF|LPS|JFR].
+
+   - Message 'Corporation Type Code "value" is not valid' is issued when Filer 
+     Code (F9; field #22) is not equal [IND|UNO|QNC|CLQ|OTH].
+
+3) Requirement that non-H3/Event_Type ='AD' records each have a Back-Reference 
+   Tran_ID {field #4} that points to the Tran_ID {field #3} of the ADmin H3 
+   record are now enforced.  (Filings with H3 records where the Back-reference
+   Tran_ID of any "non-ADmin" record points to itself are not valid and when
+   such instances occur, they are flagged as Errors.)
+
+4) Validation error messages for Form F1M corrected to show correct Field Name
+   when Office, State Code and District are missing or invalid.
+   (Previously "Name Prefix" was given on error messages that actually related
+   to State Code.)
+
+
+*******************************************************************************
+
+
+Changes to FECheck6 Version 6.1.1.4:
+====================================
+
+1) Form 3X and 3P Report Types can be coded with a value "MYE" which means that
+   a "monthly filer" is filing a "Year End" report and is using the check-box
+   on the form for monthly filers (in contrast to "quarterly filers" who would
+   mark the 'YE' check-box in the area used by quarterly filers). This enables
+   the print utility to reproduce the form with the correctly marked (quarterly
+   or monthly) Year-End check-box. 
+
+2) Added edit to confirm that a Schedule H3 - Field #4 Tran_ID Back-reference
+   refers to an [AD]min H3 record. (Filings where the Back-reference Tran_ID
+   of a "non-ADmin" record pointed to itself are not valid and are now flagged
+   as Errors if encountered.)
+
+
+Changes to FECPrint Version 6.1.1.4:
+====================================
+1) F4, Field #71 is now printing.
+
+
+*******************************************************************************
+
+
+Changes to FECheck6 Version 6.1.1.3:
+====================================
+
+1) Corrected a "bleed through" problem in situations where data in a field 
+exceeded the maximum length allowed for that field. FECHeck6 correctly flagged 
+the field "overflow" situation as an ERROR (which prevents the FEC from 
+accepting the filing). However, the last character of the "overflow" data was 
+carried over into the subsequent field, which would often result in an error or 
+warning message being erroneously given. Although the real problem was the data 
+overflow situation, the bogus message would divert attention away from the true 
+error situation.
+
+
+Changes to FECPrint Version 6.1.1.3:
+====================================
+
+1) Schedule H4 Activity check-boxes now print correctly.
+2) Form 1, Name Change and Address Change check-boxes, now print correctly.
+3) Corrected schedule titles on the printed Form 3P.
+4) Form 9, Employer and Occupation Fields are now printing.
+
+
+*******************************************************************************
+
+
+Changes to FECheck6 Version 6.1.1.2:
+====================================
+
+FECheck6 does not require additional "run-time" files.
+
+
+*******************************************************************************
+
+
+Changes to FECheck6 Version 6.1.1.1:
+====================================
+
+1) FECheck6 corrected so it does not require fields #24 (Transaction Code) on 
+   the H4 and H6's.  
+
+2) F93 requires Employer/Occupation for all Payees - BUT, only when Entity = 
+   IND or CAN.  Program and documentation updated.  
+
+   Changed F5 edits so Empl/Occup is required when Qualified Committee is "Y"
+   (BUT, only when Entity = [IND|CAN]). Program and documentation updated.  
+
+3) FECheck6 aggregates H4 & H6 Fed & NonFed amounts (But, ONLY on records where 
+   there is no Memo-Code=X; i.e. only for non-memo records). These H4 & H6 
+   tallies are compared to line-items on the F3X cover page's Summary Totals.  
+
+   Also, F132 Contribution Amounts and F133 Refund Amounts are tallied ONLY for 
+   non-memo records. These are compared to the totals carried on the F13 cover 
+   sheet.
+
+4) Documentation example for F9's field #2 (Committee ID) should show a 
+   C3XXXXXXX number rather than a C0XXXXXXX number. C30065431 is used as an 
+   example in layout for F9.  
+
+5) SA field #28 Donor Committee FEC ID and SB field #27 Payee Committee FEC 
+   ID's are not required if Entity Type = "COM". They are still required when 
+   Entity Type = [CCM|PAC|PTY]. Documentation spreadsheet 'FEC_Format_v6.1.xls' 
+   changed for SA and SB layouts to reflect this change.  
+
+6) Election (PGI) Description can begin with "R" for Recount, when the Election 
+   (PGI) Code is 'E{year}' as in 'E2008', and it won't be flagged "invalid". 
+   Election Description is still optional except when the Election Code begins 
+   with "O" {Other}.  
+
+7) FECheck6 now allows "dummy" Committee ID#'s on Forms 5, 7 and 9 as follows: 
+   --> Acceptable "dummy" IDs on Form 5 are: 'C00000000', 'C90000000' and 
+       'C90000001'.  
+
+   --> Acceptable "dummy" IDs on Form 7 are: 'C00000000', 'C70000000' and 
+       'C70000005'.  
+
+   --> Acceptable "dummy" IDs on Form 9 are: 'C00000000', 'C30000000' and 
+       'C30000004'.
+
+
+*******************************************************************************
+
+
+Summary of Changes from FEC Version 5.3 Format to Version 6.1 Format:
+=====================================================================
+
+*** Version: 6.0 (not released) ***
+
+1)  Delimiters
+    ----------
+
+    Field delimiters are ASCII "Field Separator" (FS) {binary 28; hex 1C} 
+    characters. Commas no longer used as field delimiters! Text fields may be 
+    surrounded with double-quote characters, however they are no longer 
+    necessary nor are they recommended.  
+
+
+2)  Layout field orders
+    -------------------
+
+    - All but 2 record layouts (F3PS & F3Z) have been changed. Unused fields 
+      (many denoted as "Space Holders" in recent releases of FEC formats) have 
+      been dropped.  
+
+    - All schedule record "Transaction ID Numbers" have been repositioned to 
+      field #3.  
+
+    - All Name fields for individual persons are parsed into 5 separate fields.
+
+    - Fields which were added to the end of layouts in previous versions have 
+      now been repositioned with the data-groups to which they belong.  
+
+
+3)  Record Types
+    ------------
+
+    Record types: F8II, F8III, SA11A1, SAF92, SBF93 and SE24 have been 
+    changed to: F82, F83, SA11AI, F92, F93, and SE respectively.  
+
+
+4)  Required Data
+    -------------
+
+    There are many instances where data that was optional in previous 
+    versions is now Required data. Software vendors should carefully review 
+    the detailed form/record layouts in document named FEC_Format_v6.1.xls to 
+    make sure your filing software collects and reports required filing 
+    information.  
+
+
+5)  Validation Program (FECheck6)
+    -----------------------------
+
+    The "command line" version of the file validation program named FECheck6 
+    has been modified to accept a second parameter which can be used to 
+    assign a drive, path, and filename for the output Message file. If used, 
+    the drive/path in the second parameter is also used for the location of 
+    temporary work files and the optional unformatted message files.  
+
+
+Vendor Package Module Changes:
+
+   FECheck6 - Make MYE an acceptable Report Code on F3P and F3X Filings
+			- H3 Back-Reference field must back reference an H3-Admin record
+			- Validate on all Checkboxes so that only "X" is valid
+			- SB Fields 28 and 30 to be mutually exclusive
+			- "Name Prefix" error actually related to the State Code field corrected. 
+
+   
+   FECprn   - Modified Fecprint to support format changes as described above.  
+            - F3P - Added the "-P" to the schedules to reflect the paper rendition.
+			- F91, F92, F93   Address overlapping text.
+			- SB   Address overlapping text.
+			- MYE is an acceptable Report Type on F3P and F3X filings and should check the Monthly YE check box.
+			- F6   needs to map the Candidate Office sought information from Fields 15, 16, & 17.
+			- Memo Description is overlapping TranID. [Need Example]
+			- SC2   Guarantor State field not mapped correctly.
+			- SC   Convert all loan percentage decimals to Percent values (.0450 to 4.5%)
+			- F6   Signature name not printing. Print name as well as "Electronically Filed by".
+			- F3P, F3X, F3   Line number checkboxes do not check correctly if not in a specific order. They should always check according to their line number.
+			- F9   Signature name not printing. Print name as well as "Electronically Filed by".
+			- SC   New Memo code and description field need to be mapped to the printed document.
+			- Ensure the page footers are Bolded as in the paper document.
+				F1   Update page version and document name.
+					o FEC FORM 1                    (Bottom Right)
+					(Revised 12/2007)
+					o FE3AN042.PDF                  (Bottom Left)
+				F9, F91, F92, F93 Update page version
+					o FEC FORM 9 (REV.  12/2007)    (Bottom Right)
+					o FE3AN042.PDF                  (Bottom Left)
+           
+   FECload - Change the Background status window to be more descriptive.
+   
+   
+   				*** End of Text *** 
+

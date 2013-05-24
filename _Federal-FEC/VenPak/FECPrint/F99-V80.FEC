@@ -1,0 +1,16 @@
+HDRFEC8.0Vendor SoftwareVersion 8.00
+F99C98765431Friend of Vendoretteeommittee with a Very Very Very Very Very Very Very Lot of Character in the NameFriend of Vendoretteeommittee with a Very Very Very Very Very Very Very Lot of Character in the Name123 Overthere RoadCityOfMoreThan18CharactersMx30MO44551ManSuper19950730MSI
+[BeginText]
+This is an example of something that a filer might want to send to the FEC.
+There are a few lines of text followed by some columns of information.
+
+  Line            Description             Amount
+  ----            -----------             ------
+    1             Line One                  1.00
+    2             Line Two                 20.00
+    3             Line Three              300.00
+
+The table above means nothing, but serves as an example of how a filer could
+send something electronically to the FEC and have the document tracked in the
+same way that any other kind of filing would be tracked.
+[EndText]

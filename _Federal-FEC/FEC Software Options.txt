@@ -1,0 +1,50 @@
+Software options:
+FECfile - This software was created by the FEC specifically for electronic filing of FEC reports. It is available at no cost to any committee who wishes to use it. It may be downloaded, or contact the Electronic Filing Office at 202-694-1642 option 2, to have a copy mailed to you. FECfile requires a PC with Microsoft Windows 7, Vista, or XP operating system, and approximately 50 MB free disk space.
+The following companies have contacted the FEC and indicated that they are implementing electronic filing. The tools that facilitate doing so are available to anyone who wishes to use them. You should check with your software vendor to see if they support electronic filing with the FEC. 
+Company Name	Software Package	Phone Number
+720 Strategies	PACMaster	(202) 962-3955
+All Around Campaigns	FEC Electronic Filing Compliant	(888) 636-1346
+AmeriCan GOTV Enterprises, LLC	GOTV Campaign Optimizer	(866) 633-4688
+American Political Webware	Ampolweb	(703) 250-5747
+Aristotle International Inc.	Campaign Manager; PAC Manager	(800) 296-2747
+AVF Consulting, Inc.	Microsoft Dynamics NAV
+FEC Reporting	(410)-296-5100
+Blue Utopia, LLC	Blue Utopia FEC Compliance Manager™; Blue Utopia Congressional Integrated System™	(866) 257-7144
+CMDI	FEC Filer	(703) 790-8676
+CompleteCampaigns.com	BackOffice	(888) 217-9600
+C. Young & Associates, Inc.	CMS	(410) 592-5607
+CQ Roll Call	Capwiz PACbuilder	(202) 650-6500
+Data+Imagination, Inc.	VoteTech	(800) 422-5222
+DDC Advocacy	Democracy Direct	(877) 332-6556
+Donelson and Associates	microPAC Political Action Committee InfoSystem and Outsourcing Services	 (615)-662-7280
+ElecTek USA	ElecTek	(724)-678-4698
+Filpac	Filpac	(800) 383-8400
+Hannibal Software, Inc.	Hannibal/ Landslide	(202) 544-8117
+MPower Systems Public Policy Group	MPower Systems	(770) 913-0677
+MrDistrict LLC	MrDistrict	(816) 884-4741
+MURRAYCOM.COM	The Focus System	(803) 783-7436
+NetFile	NetFile	(209) 742-4100
+NGP Software Inc.	NGP Campaign Office™
+NGP Campaign Office™ Online	(202) 686-9330
+PAC Outsourcing, LLC	Vocus	(866) 671-0770
+PAC Services LLC	 	(877) 433-7227
+PASoft Solutions & Services, Inc.	PASoft PAC Manager	(770)783-1134
+Patton Technologies, LLC	PT Campaign Suite™
+PT Database™
+PT Financial™
+PT Disclosure™	(502) 695-9222
+Paula Y. Edwards	 	(202) 434-4530
+Political Compliance Services Inc.	Complete Compliance Systems	(703) 250-0496
+Stakeholder, Inc.	STAKEHOLDER.NET and STAKEHOLDER PAC MANAGER	(800) 727-5022 or (317)-253-9282
+Trail Blazer Campaign Services	Trail Blazer	(800) 446-1375
+Public Affairs Support Services http://www.pactrack.net/	PASS	(703) 476-3070
+Q.E.D., Inc.	Pundit/2000	(763) 521-2626
+RACE-TRAX Political Software	 	(770) 386-8619
+RDE System Support Group	Visual Elect	(973) 773-0244
+RDR Software, LLC	FrontRunner	(404) 975-4547
+Sage Systems	Sage ListManagerT v1.0	(617) 742-3338
+Statecraft Inc.	Craftware Express	(800) 984-6789
+The Synetech Group, Inc.	FECreporting.com	(877) 648-0300
+Vocus Inc.	
+VocusPAC™ 
+(301) 459-2590
